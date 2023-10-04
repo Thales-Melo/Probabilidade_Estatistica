@@ -20,7 +20,6 @@ y
 plot (x, y, xlab = c("metros"), ylab = c("preco"))
 
 S = sample (1:200, 150)
-xtrain = x[5]
 xtrain = x[S]
 ytrain = y[S]
 xtest = x[-5]
