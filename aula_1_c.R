@@ -11,3 +11,10 @@ m_amostra[i] = mean(amostra)
 
 hist(m_amostra)
 abline(v=m_real)
+
+x = runif (200, 100, 200)
+y = 500 + (3*x) + rnorm(200, 0, 50)
+x
+y
+
+plot (x, y, xlab = c("metros"), ylab = c("preco"))
