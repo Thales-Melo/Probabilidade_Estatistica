@@ -32,6 +32,7 @@ b=m$coefficients[2]
 pred = a+b*xtest
 erro = abs(ytest - pred)
 hist(erro)
+mean(erro)
 
 plot(ytest, pred)
 abline(0,1)

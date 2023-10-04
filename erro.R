@@ -32,4 +32,4 @@ b=m$coefficients[2]
 pred = a+b*xtest
 erro = abs(ytest - pred)
 hist(erro)
-
+mean(erro)
